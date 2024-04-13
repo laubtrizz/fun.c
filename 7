@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+float vv(float c, float l, float a){
+    float v;
+    v= c * l * a;
+    return v;
+}
+int main(){
+    float c, l, a;
+    float r;
+        printf("Informe o valor do comprimento: \n");
+         scanf("%f", &c);
+        printf("Informe o valor da largura: \n");
+         scanf("%f", &l);
+        printf("Informe os valor da altura: \n");
+         scanf("%f",&a);
+    r = vv(c, l, a);
+        printf("O volume e: %.2f", r);
+    return 0;
+}

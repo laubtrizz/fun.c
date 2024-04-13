@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+void vi (int n){
+    if (n == 0){
+        printf("%d e um numero neutro", n);
+    } 
+    else if (n > 0){
+        printf("%d e um numero positivo", n);
+    }
+    else {
+        printf("%d, e um numero negativo", n);
+    }
+}
+int main (){
+    int valor;
+    printf("Digite um valor inteiro: ");
+    scanf("%d", &valor);
+    vi(valor);
+
+    return 0;
+}

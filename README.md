@@ -1,2 +1,2 @@
 # vetores.c
-Códigos de vetores que fiz na disciplina de algoritmos.
+Códigos de funções que fiz na disciplina de algoritmos.
